@@ -3,7 +3,7 @@ package com.eccomerce_wilson.eccomerce.controller;
 
 import com.eccomerce_wilson.eccomerce.Entity.Customer;
 import com.eccomerce_wilson.eccomerce.Exceptions.CustomerExistsException;
-import com.eccomerce_wilson.eccomerce.Exceptions.CustomerNotFoundException;
+import com.eccomerce_wilson.eccomerce.Exceptions.NotFound.CustomerNotFoundException;
 import com.eccomerce_wilson.eccomerce.Service.ICustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

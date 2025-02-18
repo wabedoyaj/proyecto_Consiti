@@ -1,11 +1,12 @@
-package com.eccomerce_wilson.eccomerce.Service;
+package com.eccomerce_wilson.eccomerce.Service.implem;
 
 
 import com.eccomerce_wilson.eccomerce.Entity.Customer;
-import com.eccomerce_wilson.eccomerce.Exceptions.CategoryNotFoundException;
+import com.eccomerce_wilson.eccomerce.Exceptions.NotFound.CategoryNotFoundException;
 import com.eccomerce_wilson.eccomerce.Exceptions.CustomerExistsException;
-import com.eccomerce_wilson.eccomerce.Exceptions.CustomerNotFoundException;
+import com.eccomerce_wilson.eccomerce.Exceptions.NotFound.CustomerNotFoundException;
 import com.eccomerce_wilson.eccomerce.Repository.ICustomerRepository;
+import com.eccomerce_wilson.eccomerce.Service.ICustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

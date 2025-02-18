@@ -1,10 +1,8 @@
 package com.eccomerce_wilson.eccomerce.controller;
 
-import com.eccomerce_wilson.eccomerce.DTO.ProductDTO;
 import com.eccomerce_wilson.eccomerce.Entity.Category;
-import com.eccomerce_wilson.eccomerce.Entity.Product;
 import com.eccomerce_wilson.eccomerce.Exceptions.CategoryExistsException;
-import com.eccomerce_wilson.eccomerce.Exceptions.CategoryNotFoundException;
+import com.eccomerce_wilson.eccomerce.Exceptions.NotFound.CategoryNotFoundException;
 import com.eccomerce_wilson.eccomerce.Service.ICategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

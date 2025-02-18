@@ -1,4 +1,4 @@
-package com.eccomerce_wilson.eccomerce.Exceptions;
+package com.eccomerce_wilson.eccomerce.Exceptions.NotFound;
 
 public class CustomerNotFoundException extends RuntimeException{
     public CustomerNotFoundException(Long customerId) {

@@ -1,20 +1,21 @@
-package com.eccomerce_wilson.eccomerce.Service;
+package com.eccomerce_wilson.eccomerce.Service.implem;
 
 import com.eccomerce_wilson.eccomerce.DTO.ProductDTO;
 import com.eccomerce_wilson.eccomerce.Entity.Category;
 import com.eccomerce_wilson.eccomerce.Entity.Product;
-import com.eccomerce_wilson.eccomerce.Exceptions.CategoryNotFoundException;
+import com.eccomerce_wilson.eccomerce.Exceptions.NotFound.CategoryNotFoundException;
 import com.eccomerce_wilson.eccomerce.Exceptions.ProductExistsException;
-import com.eccomerce_wilson.eccomerce.Exceptions.ProductNotFoundException;
+import com.eccomerce_wilson.eccomerce.Exceptions.NotFound.ProductNotFoundException;
 import com.eccomerce_wilson.eccomerce.Repository.ICategoryRepository;
 import com.eccomerce_wilson.eccomerce.Repository.IProductRepository;
+import com.eccomerce_wilson.eccomerce.Service.IProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ProductServiceImp implements IProductService{
+public class ProductServiceImp implements IProductService {
     @Autowired
     private IProductRepository repository;
 

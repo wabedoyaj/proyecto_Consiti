@@ -1,4 +1,4 @@
-package com.eccomerce_wilson.eccomerce.Exceptions;
+package com.eccomerce_wilson.eccomerce.Exceptions.NotFound;
 
 public class ProductNotFoundException extends RuntimeException {
     public ProductNotFoundException(Long productId) {
